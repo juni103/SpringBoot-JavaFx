@@ -46,7 +46,7 @@ public class JavaFXApplication extends Application {
 		this.context = new SpringApplicationBuilder()
 				.sources(JavaFXApplication.class)
 				.initializers(initializer)
-				.run(getParameters().getRaw().toArray(new String[0]));
+				.run(getParameters().getRaw().toArray(new String[0])); // Passing command line parameters to SpringBoot
 	}
 	
 	@Override
