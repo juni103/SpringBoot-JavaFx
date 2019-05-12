@@ -1,2 +1,2 @@
 # SpringBoot-JavaFx (Basic Initialization)
-A basic JavaFx application initialization in SpringBoot context. 
+A basic JavaFx application initialization with SpringBoot context. 
